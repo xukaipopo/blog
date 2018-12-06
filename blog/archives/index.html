@@ -2,7 +2,7 @@
 <html class="no-js" lang="en">
 <head>
   <meta charset="utf-8">
-  <title>My Octopress Blog</title>
+  <title>Blog Archive - My Octopress Blog</title>
   <meta name="author" content="Your Name">
 
   
@@ -14,15 +14,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://xukaipopo.github.io/blog/">
+  <link rel="canonical" href="http://xukaipopo.github.io/blog/blog/archives/">
   <link href="/blog/favicon.png" type="image/png" rel="icon">
   <link href="/blog/atom.xml" rel="alternate" title="My Octopress Blog" type="application/atom+xml">
 
   <!-- http://opengraphprotocol.org/ -->
   <meta name="twitter:card" content="summary_large_image">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="http://xukaipopo.github.io/blog/">
-  <meta property="og:title" content="My Octopress Blog">
+  <meta property="og:url" content="http://xukaipopo.github.io/blog/blog/archives/">
+  <meta property="og:title" content="Blog Archive - My Octopress Blog">
   
 
   <script src="/blog/javascripts/libs/jquery/jquery-2.1.3.min.js"></script>
@@ -44,47 +44,76 @@
     <a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
     <div id="wrap">
       
-      <div id="banner-image">
-        <div class="layer">
-          <div id="banner-text">
-            <h1 class="page-title">My Octopress Blog</h1>
-            <p class="page-desc">
-              A blogging framework for hackers.<br>
-            </p>
-            <br>
-            <br>
-            <div class="page-links center">
-              <ul class="index-nav">
-                  <li ><a href="#">Projects</a></li>
-<li ><a href="/blog/archives">Archives</a></li>
-<li ><a href="#">About</a></li>
-              </ul>
-            </div>
-          </div>
+        <header role="banner">
+          <nav class="navbar navbar-default" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" title="toggle navbar" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/blog/">My Octopress Blog</a>
         </div>
-      </div>
+
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li ><a href="#">Projects</a></li>
+<li class="active"><a href="/blog/archives">Archives</a></li>
+<li ><a href="#">About</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a class="subscribe-rss" href="/blog/atom.xml" title="subscribe via RSS">
+                        <span class="visible-xs">RSS</span>
+                        <img class="hidden-xs" src="/blog/images/rss.png" alt="RSS">
+                    </a>
+                </li>
+                
+            </ul>
+            
+                <form class="navbar-form navbar-right" action="https://www.google.com/search" method="GET">
+                    <input type="hidden" name="sitesearch" value="xukaipopo.github.io/blog">
+                    <div class="form-group">
+                        <input class="form-control" type="text" name="q" placeholder="Search">
+                    </div>
+                </form>
+            
+        </div>
+    </div>
+</nav>
+
+
+        </header>
       
       <div id="main" role="main" class="container">
         <div id="content">
           <div class="row">
   <div class="page-content">
-    <div class="blog-index" itemscope itemtype="http://schema.org/Blog">
-    <meta itemprop="name" content="My Octopress Blog" />
-    
-    <meta itemprop="url" content="http://xukaipopo.github.io/blog" />
+    <article role="article">
       
+        <header class="page-header">
+          
+          
+            <h1 class="entry-title">
+              Blog Archive
+              
+            </h1>
+          
+        </header>
       
-    </div>
+      <div class="entry-content">
+        <div id="blog-archives" itemscope itemtype="http://schema.org/Blog">
+<meta itemprop="name" content="My Octopress Blog" />
 
-    <ul class="pager">
+<meta itemprop="url" content="http://xukaipopo.github.io/blog" />
+
+</div>
+
+      </div>
       
-        <li class="previous disabled"><a href="#">&larr;&nbsp;Older</a></li>
-      
-      <li><a href="/blog/blog/archives">Blog Archives</a></li>
-      
-        <li class="next disabled"><a href="#">Newer&nbsp;&rarr;</a></li>
-      
-    </ul>
+    </article>
+    
   </div>
 </div>
 
